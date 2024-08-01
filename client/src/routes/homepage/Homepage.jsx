@@ -1,8 +1,7 @@
 import React from 'react'
 import './homepage.css'
-import { Link } from 'react-router-dom'
 import { TypeAnimation } from 'react-type-animation'
-
+import { Link } from "react-router-dom"
 const Homepage = () => {
   return (
     <div className='homepage'>
@@ -23,15 +22,15 @@ const Homepage = () => {
             </div>
             <img src="/bot3.png" alt="" className='bot'/>
             <div className="chat">
-            <img src="/bot.png" alt="" />
+            <img src="/bot2.png" alt="" />
                 <TypeAnimation
                 sequence={[
                   // Same substring at the start will only be typed out once, initially
                   'I AM LUCKY AI 🤖 HOW CAN I HELP YOU .',
                   1500, // wait 1s before replacing "Mice" with "Hamsters"
-                  'offer 24/7 assistance ⌚.',
+                  'Offer 24/7 assistance⌚.',
                   1500,
-                  'Natural language processing drives conversations 📃.',
+                  'Natural language processing based conversation📃',
                   1500,
                   'Personalized interactions through AI chatbots 💬',
                   1500
